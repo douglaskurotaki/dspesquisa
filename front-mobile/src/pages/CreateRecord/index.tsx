@@ -9,7 +9,7 @@ import { FontAwesome5 as Icon } from '@expo/vector-icons';
 import axios from 'axios';
 import { RectButton } from 'react-native-gesture-handler';
 
-const BASE_URL = 'http://192.168.1.129:8080';
+const BASE_URL = 'https://sds1-dkurotaki.herokuapp.com';
 
 const mapSelectValues = (games: Game[]) => {
   return games.map(game => ({
